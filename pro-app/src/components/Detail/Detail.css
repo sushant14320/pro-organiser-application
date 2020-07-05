@@ -1,0 +1,54 @@
+.plus{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    border:1px black dotted;
+    color: black;
+    border-radius: 10%;
+    font-family: cursive;
+    margin-left: 20px;
+   font-weight: bold;
+   font-size: 22px;
+}
+
+.columns{
+    background-color: rgb(197, 190, 190);
+    height: fit-content;
+    /* position: relative; */
+    width: 278px;
+    font-family: cursive;
+    overflow: hidden;
+    border-radius: 7px;
+    
+}
+
+
+
+#wrap{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 10px;
+}
+
+.btnmodal{
+    /* position: relative; */
+    margin-left: 1px;
+    background-color: whitesmoke;
+    width: 99.4%;
+    border: 1px black dotted;
+    padding: 6px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    
+}
+
+.btndelete{
+    float: right;
+    margin-right: 12px;
+    font-size: 20px;
+    margin-top: -35px;
+   background-color: red;
+   padding: 5px;
+}

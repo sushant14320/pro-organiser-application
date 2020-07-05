@@ -1,0 +1,20 @@
+li{
+    list-style: none;
+}
+.BtnBoardName{
+    text-decoration: none;
+  display: inline-block;
+   padding: 55px 140px;
+  font-size: 16px;
+  border: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+.ulGrid{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    overflow-x: hidden;
+    
+}

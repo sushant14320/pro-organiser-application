@@ -1,0 +1,38 @@
+.Navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(47, 105, 170, 0.863);
+}
+
+.Navlink{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 25px;
+    float: right;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.Navheader{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 25px;
+    float: left;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.Navlink:hover{
+    background-color: rgba(243, 237, 237, 0.9);
+    overflow: hidden;
+  }
+  
+  
+
