@@ -158,7 +158,7 @@ class Cards extends Component {
                         <h6>{" " +this.state.modalmem+ " "}</h6>
                         Due Date
                         <h6>{this.state.modalDate || ''}</h6>
-                        <a href="javascript:void(0);" className="popupClose" onClick={() => this.closeModal()}>Close</a>
+                        <button className="popupClose" onClick={() => this.closeModal()}>Close</button>
                     </div>
                 
                 
