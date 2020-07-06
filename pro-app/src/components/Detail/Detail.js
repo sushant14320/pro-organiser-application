@@ -4,15 +4,15 @@ import '../Detail/Detail.css';
 import Modal from '../Modal/Modal';
 import firebase from '../../services/firebase';
 import 'firebase/firestore';
-import { AiFillDelete,AiOutlinePlusCircle,AiOutlinePlus,AiOutlineClose } from "react-icons/ai";
-import { firestore } from 'firebase';
+import { AiFillDelete,AiOutlinePlusCircle} from "react-icons/ai";
+//import { firestore } from 'firebase';
 import Cards from '../Cards/Cards';
 import ModalCard from '../Modal/ModalCard';
 
-var db = firebase.firestore();
+//var db = firebase.firestore();
 class Detail extends Component {
     constructor(props) {
-        super(props);
+        super(props); 
         this.state = { 
             ID:this.props.match.params.id,
             CI:'',

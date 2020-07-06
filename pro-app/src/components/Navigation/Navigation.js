@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import{
-    NavLink,Link, Redirect}
+    NavLink}
 from 'react-router-dom';
 import '../Navigation/Navigation.css';
 

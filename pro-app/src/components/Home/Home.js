@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import axios from 'axios';
 import '../Home/Home.css';
 import{
-    NavLink,Link, Redirect}
+    NavLink}
 from 'react-router-dom';
 
 
