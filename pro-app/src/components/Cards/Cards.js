@@ -114,7 +114,7 @@ class Cards extends Component {
                     <h4 className="title">{title}</h4>
                     <br></br><br></br>
                     
-               {''} {'  ' + ' '+ mem +' ' + '  '} {''}
+               {''} {  ' '+ mem +' ' } {''}
                    <br></br>   
                    
                 </div>
