@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import { Card} from 'react-simple-card';
+//import { Card} from 'react-simple-card';
+import { } from 'react-simple-card';
 import '../Cards/Cards.css';
 import Modal from 'react-awesome-modal';
 import axios from 'axios';
