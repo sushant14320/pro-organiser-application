@@ -163,7 +163,7 @@ class Detail extends Component {
         
         return ( 
         <div>
-            <h1 className="btitle">{this.state.NAME} Board</h1>
+            <h1 className="btitle">{this.state.NAME}</h1>
 
             <div>
                 <button className="btndelete" onClick={() => this.DeleteBoard(this.props.match.params.id)}>Delet Board</button>
