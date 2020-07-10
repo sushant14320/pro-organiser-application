@@ -14,7 +14,7 @@ class Navigation extends Component {
     render() { 
         return ( 
             <div className="Navbar">
-                <h2 className="Navheader">Pro-Organiser</h2>
+                <h2 className="Navheader">Pro-Organizer</h2>
                 <NavLink className="Navlink" to="/">Home</NavLink>
                 
                  <NavLink className="Navlink" to="/createboard">
