@@ -166,7 +166,7 @@ class Detail extends Component {
             <h1 className="btitle">{this.state.NAME}</h1>
 
             <div>
-                <button className="btndelete" onClick={() => this.DeleteBoard(this.props.match.params.id)}>Delet Board</button>
+                <button className="btndelete" onClick={() => this.DeleteBoard(this.props.match.params.id)}>Delete Board</button>
             </div>
             
                 
@@ -178,7 +178,7 @@ class Detail extends Component {
                  {
                      this.state.isempty
                      ?
-                     <h1>No data</h1>
+                     null
                  
                  :
                  <section id="wrap">
