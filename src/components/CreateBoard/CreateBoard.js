@@ -57,7 +57,7 @@ class CreateBoard  extends Component {
         data = firebase.database().ref('/Boards');
         return ( 
             <div>
-                <h1>Create Board</h1>
+                <h1>Create a Board</h1>
                 <form className="FormB">
                     
                     <label>Enter a name for your board </label><br></br>

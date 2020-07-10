@@ -171,7 +171,7 @@ class Detail extends Component {
             
                 
                 <button onClick={this.ToggleModal} className="plus">
-                  <AiOutlinePlusCircle/>
+                  Add a column
                  </button>
                 <br></br><br></br>
                  
