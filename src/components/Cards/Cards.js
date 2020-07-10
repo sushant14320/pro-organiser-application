@@ -151,7 +151,7 @@ class Cards extends Component {
                             <button className="btnarchive">Archive</button>
 
                 
-                        <h1>{this.state.modaltitle}</h1><h5>in {this.props.ModalBname}</h5>
+                        <h1>{this.state.modaltitle}</h1><h5>in {this.props.NameOfBoard}</h5>
                         <hr></hr>
                         Description
                         <h6>{this.state.modalDesc}</h6>

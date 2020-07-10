@@ -149,6 +149,7 @@ class Detail extends Component {
                       id={this.state.CI}     
                       colID={i} 
                       ModalBname = {colData}
+                      NameOfBoard ={this.state.NAME}
                       />
                      
                      </div>
