@@ -18,7 +18,7 @@ class Navigation extends Component {
                 <NavLink className="Navlink" to="/">Home</NavLink>
                 
                  <NavLink className="Navlink" to="/createboard">
-                      Create Board
+                      Create a Board
                  </NavLink>
             
              </div>
