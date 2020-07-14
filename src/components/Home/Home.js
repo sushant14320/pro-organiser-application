@@ -43,7 +43,7 @@ class Home extends Component {
              let board= Object.values(res);
              console.log(board)
              for(let i = 0;i<board.length;i++){
-                 const BName = board[i].BoardName;
+                 const BName = board[i].Name;
                  console.log("bname:"+BName);
                     this.setState({
                         nameOfBoard:board,
@@ -66,9 +66,9 @@ class Home extends Component {
       //  let message = ''
         let Array_Board = this.state.nameOfBoard.map((boardV,index)=>{
 
-            const {BoardName}  = boardV
+            const {Name}  = boardV
                 return(
-                <li><NavLink to={`/${index}`}><button key={index} className="BtnBoardName">{BoardName}</button></NavLink></li>
+                <li><NavLink to={`/${index}`}><button key={index} className="BtnBoardName">{Name}</button></NavLink></li>
                 )
         })
         return ( 

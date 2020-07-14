@@ -4,7 +4,7 @@ import '../Detail/Detail.css';
 import Modal from '../Modal/Modal';
 import firebase from '../../services/firebase';
 import 'firebase/firestore';
-import { AiFillDelete,AiOutlinePlusCircle} from "react-icons/ai";
+import { AiFillDelete} from "react-icons/ai";
 
 import Cards from '../Cards/Cards';
 import ModalCard from '../Modal/ModalCard';
@@ -49,10 +49,10 @@ class Detail extends Component {
             //console.log(newarray);
         
             this.setState({ 
-                NAME:newData[this.props.match.params.id].BoardName,
+                NAME:newData[this.props.match.params.id].Name,
                 MEMBERS:newarray
             })
-            console.log(this.state.MEMBERS);
+            console.log(this.state.NAME);
         })
         axios.get(`https://pro-app-7c18b.firebaseio.com/${this.props.match.params.id}/Columns.json`)
         .then(columnName=>{

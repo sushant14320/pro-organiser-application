@@ -15,7 +15,7 @@ class Navigation extends Component {
         return ( 
             <div className="Navbar">
                 <h2 className="Navheader">Pro-Organizer</h2>
-                <NavLink className="Navlink" to="/createboard">Create a Board</NavLink>
+                <NavLink className="Navlink" to="/createboard">Create a board</NavLink>
                 
                  <NavLink className="Navlink" to="/">
                       Home
